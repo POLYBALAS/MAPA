@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #797979;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color:transparent;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: flex;
+    backdrop-filter: blur(20px);
+}
+.menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 7%;
+    height: 100%;
+    background-color: rgba(0,0,0, .6);
+    transition: left 0.1s ease-in-out;
+    z-index: 9999; 
+    color: #ffffff;
+  }
+
+.menu.open {
+    left: 0;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 10px;
+  }
+  
+  .menu a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  #openMenuBtn img {
+    width: 50px; /* Defina o tamanho desejado */
+    height: 50px; /* Defina o tamanho desejado */
+    margin-right: 5px; /* Espaço entre o ícone e o texto "Abrir Menu" */
+  }
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{color: #ffffff;}
+
+
+header img {
+    height: 50px;
+}
+
+.mapa {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px; /* Adjust the height as needed */
+    background-color:  rgba(0,0,0, .6); /* Background color for clarity */
+    color: ;
+}
+
+footer {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 414px;
+    backdrop-filter: blur(20px);
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 58.8px;
+    backdrop-filter: blur(20px);
+}
